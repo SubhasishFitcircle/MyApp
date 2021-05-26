@@ -70,7 +70,7 @@ class Details extends Component<Props, MyState> {
               <img alt="item" src={Image} />
             </div>
             <div className="info-container">
-            <h2>User Id : {data.userId}</h2>
+            <h2>Post Id : {data.id}</h2>
             <strong>Title : {data.title}</strong>
             <p>Details : {data.body}</p>
 
